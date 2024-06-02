@@ -1,0 +1,176 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+.bg-container {
+    display:flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.header{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    height: 4%;
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.sheild-image {
+    height: 50px;
+    width: 50px;
+}
+
+.vertical-break {
+    height: 100%;
+    border-width: 1px;
+    border-color: blue;
+    margin: 0px;
+    
+    
+}
+
+.slogan {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    margin-bottom: 3px;
+    color: black;
+    font-size: 20px;
+    margin-top: 0px;
+    margin-left: 5px;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: #c6edf5;
+    height: 6%;
+}
+
+
+
+.anchor {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.butt1 {
+    border-width: 0px;
+    padding: 15px;
+    font-size: 15px;
+    margin-left: auto;
+    background-color: transparent;
+}
+
+.butt {
+    border-width: 0px;
+    padding: 15px; 
+    font-size: 15px;
+    background-color: transparent;
+    font-weight: bold;
+}
+.span {
+    font-size: 15px;
+}
+
+.break {
+    height: 50%;
+    border-width: 1px;
+    border-color: black;
+    margin: 0px;
+    margin-top: 10px;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 73%;
+}
+
+.pic {
+    height: 100%;
+    width: 50%;
+    display:flex;
+}
+
+.about-me {
+    padding-top: 10%;
+    padding-left: 5%;
+    padding-right: 10%;
+    width: 55%;
+    color: rgb(22, 105, 156);
+}
+
+.about-nenu {
+    width: 55%;
+    color: rgb(22, 105, 156);
+    padding-left: 40px;
+    overflow-y: auto;
+}
+
+.greeting {
+    font-size: 35px;
+    margin-bottom: 7%;
+}
+.about-para {
+    font-size: 25px;
+}
+.heading {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.para {
+    font-size: 17px;
+    margin-top: -13px;
+}
+
+.social-media {
+    background-color: blue;
+    width: 100%;
+    height: 8%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.media {
+    font-size: 12px;
+    color: white;
+    margin-right: 20px;
+}
+
+.footer {
+    text-align: center;
+    width: 100%;
+    height: 6%;
+    color: white;
+    background-color: rgb(6, 108, 252);
+    font-size: 15px;
+}
+
+.project-menu{
+    width: 55%;
+    color: rgb(22, 105, 156);
+    padding-left: 40px;
+    overflow-y: auto;
+}
+
+.contact-menu {
+    width: 55%;
+    color: rgb(22, 105, 156);
+    padding-top : 40px;
+    padding-left: 100px;
+    overflow-y: auto;
+}
